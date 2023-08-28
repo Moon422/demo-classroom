@@ -1,0 +1,146 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Summer-2023-CSE499",
+            "subtitle": "1",
+            "instructorid": 5,
+            "studentids": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Summer-2023-CSE464-2",
+            "subtitle": "CEN464",
+            "instructorid": 4,
+            "studentids": [
+                1
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Summer-2023-CSE433-1",
+            "subtitle": "CSC470,CSC660,CEN470",
+            "instructorid": 7,
+            "studentids": [
+                1
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Summer-2023-CSE499",
+            "instructorid": 6,
+            "studentids": [
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "firstname": "Mahfuzur",
+            "lastname": "Rahman",
+            "usertype": "student",
+            "courses": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "id": 2,
+            "firstname": "Syed",
+            "lastname": "Tahsin",
+            "usertype": "student",
+            "courses": [
+                1,
+                4
+            ]
+        },
+        {
+            "id": 3,
+            "firstname": "Nabilah",
+            "lastname": "Tabassum",
+            "usertype": "student",
+            "courses": [
+                1,
+                4
+            ]
+        },
+        {
+            "id": 4,
+            "firstname": "Sanzar",
+            "lastname": "Adnan",
+            "usertype": "faculty",
+            "courses": [
+                2
+            ]
+        },
+        {
+            "id": 5,
+            "firstname": "Subrata Kumar",
+            "lastname": "Dey",
+            "usertype": "faculty",
+            "courses": [
+                1
+            ],
+            "profilePicture": "https://lh3.googleusercontent.com/a-/AD_cMMQtxbUW2f1uV-qV6Fgp1ZbM1_xOru19yTY_C_uZnKbLTvw=s75-c"
+        },
+        {
+            "id": 6,
+            "firstname": "Mahir Al",
+            "lastname": "Kamal",
+            "usertype": "faculty",
+            "courses": [
+                4
+            ],
+            "profilePicture": "https://lh3.googleusercontent.com/a-/AD_cMMSgRhjO8qToKIYQnW-Qg3pEzIn4so0Oz0-sqYlWB3dw0g=s75-c"
+        },
+        {
+            "id": 7,
+            "firstname": "Mohammad Motiur",
+            "lastname": "Rahman",
+            "usertype": "faculty",
+            "courses": [
+                3
+            ]
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, assumenda consequatur fugiat perspiciatis alias nisi voluptate totam mollitia rerum magnam? Nesciunt nulla ea libero ab, quae quod iusto sint tempora.",
+            "writerId": 5,
+            "courseId": 1,
+            "createdAt": "2023-08-23T19:20:43.511Z",
+            "lastUpdated": null,
+            "commentIds": [
+                1
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, assumenda consequatur fugiat perspiciatis alias nisi voluptate totam mollitia rerum magnam? Nesciunt nulla ea libero ab, quae quod iusto sint tempora.",
+            "writerId": 1,
+            "postId": 1,
+            "createdAt": "2023-08-23T19:20:43.511Z",
+            "lastUpdated": null
+        },
+        {
+            "id": 2,
+            "body": "Foo Bar",
+            "writerId": 5,
+            "postId": 1,
+            "createdAt": "2023-08-23T19:20:43.511Z",
+            "lastUpdated": null
+        }
+    ]
+}
